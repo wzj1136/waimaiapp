@@ -1,0 +1,218 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-11 13:18:29
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-09-13 11:28:02
+*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family:”苹方“;
+	list-style: none;
+	box-sizing: border-box;
+	position: relative;
+}
+a{
+	text-decoration: none
+}
+i{
+	font-style: normal;
+}
+body{
+	background-image: url('../img/big0.jpg');
+	background-size: auto;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.dlu{
+	width: 1.8rem;
+	height: 0.6rem;
+	background: #FFCF2B;
+	border-radius:10rem;
+	margin-left: 4.9rem;
+	margin-top: 1rem;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.6rem;
+	margin-bottom: 2.8rem;
+}
+.middle{
+	width: 100%;
+	height: 5.4rem;
+	padding: 0 0.24rem;
+	margin-bottom: 0.7rem;
+}
+.middle .container{
+	height: 100%;
+}
+.middle .top{
+	width: 6.2rem;
+	height: 0.23rem;
+	background:#FFCF2B;
+	margin: 0 auto; 
+	border-top-left-radius: 0.3rem;
+	border-top-right-radius: 0.3rem;
+}
+.middle .bottom{
+	width: 100%;
+	height: 5.17rem;
+	background: #fff;
+	border-radius: 0.35rem;
+	padding: 0.12rem;
+}
+.bottom .container{
+	height: 100%;
+	overflow: hidden;
+}
+.bottom .list{
+	width: 100%;
+	height: 1.5rem;
+}
+.bottom .list .list-top{
+	width: 100%;
+	height: 0.6rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bottom .list .list-top .li-top-left{
+	width: 3rem;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bottom .list:nth-child(2) .list-top .li-top-left{
+	width: 3.7rem;
+}
+.bottom .list:nth-child(2) .list-top .li-top-left h4{
+	width: 3rem;
+}
+.bottom .list .list-top .li-top-left h5{
+	width: 0.52rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #FA1B50;
+}
+.bottom .list .list-top .li-top-left h4{
+	width: 2.4rem;
+	height: 100%;
+	font-size: 0.35rem;
+	color: #FFCF2B;
+	line-height: 0.6rem;
+}
+.bottom .list .list-top .li-top-right{
+	width: 3.2rem;
+	height: 100%;
+	line-height: 0.6rem;
+	background: #FA1B50;
+	color: #fff;
+	border-top-left-radius: 0.7rem;
+	border-bottom-right-radius: 0.6rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	display: none;
+}
+.bottom .list .list-top .erroy1{
+	display: none;
+}
+.bottom .list .list-top .erroy2{
+	display: none;
+}
+.bottom .list .list-top .li-top-right p{
+	font-size: 0.2rem;
+	text-align: center;
+}
+.bottom .list .list-top .li-top-right .iconfont{
+	margin-left: 0.2rem;
+	font-size: 0.2rem;
+	color: #fff;
+	display: block;
+	margin-right: 0.1rem;
+}
+.bottom .list .list-bottom{
+	width: 100%;
+	height: 0.9rem;
+	border-bottom: 0.01rem solid #C4C4C4;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	overflow: hidden;
+}
+.bottom .list .list-bottom .list-bottom-left{
+	width: 0.7rem;
+	height: 0.7rem;
+	border-radius: 50%;
+	margin-top: 0.2rem;
+}
+.bottom .list .list-bottom .list-bottom-left .iconfont{
+	font-size: 0.5rem;
+	color: #FFCF2B;
+	display: block;
+	margin-left: 0.3rem;
+}
+.bottom .list .list-bottom .list-bottom-right{
+	width: 5rem;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.bottom .list:nth-child(2) .list-bottom .list-bottom-right i{
+	display: none;
+}
+.bottom .list:nth-child(2) .list-bottom .list-bottom-right p{
+	width: 1.4rem;
+	height: 0.5rem;
+	background: #FA1B50;
+	line-height: 0.5rem;
+	text-align: center;
+	margin-right: 0.4rem;
+	margin-top: 0.3rem;
+	border-radius: 0.5rem;
+	color: #fff;
+}
+.bottom .list .list-bottom .list-bottom-right input{
+	margin-top: 0.2rem;
+	width: 2.8rem;
+	height: 0.6rem;
+	display: block;
+	outline: none;
+	border: 0.01rem solid #fff;
+	border-bottom: 0.01rem solid #C1C1C1;
+}
+.bottom .list .list-bottom .list-bottom-right .icon-duigou{
+	margin-top: 0.4rem;
+	display: block;
+	width:0.3rem;
+	height: 0.3rem;
+	color: #1DCCFF;
+	display: none;
+}
+.bottom .list .list-bottom .list-bottom-right p{
+	margin-top: 0.45rem;
+	font-size: 0.15rem;
+	color: #FFD032;
+}
+.btn{
+	width: 100%;
+	height: 1.2rem;
+}
+.btn button{
+	width: 4.38rem;
+	height: 100%;
+	display: block;
+	background:#3D3D3D; 
+	border-radius: 0.8rem;
+	font-size: 0.45rem;
+	outline: none;
+	margin: 0 auto;
+	border: none;
+	color: #fff;
+}
+.btn button.but-color{
+	background:#FFCF2B; 
+}

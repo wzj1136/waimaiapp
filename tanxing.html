@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 1.改变视口 
+	名称：视口 
+	内容：宽度=设备的宽度
+	初始缩放比例1.0，
+	不允许用户缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/tanxing.css">
+</head>
+<body>
+	<div class="box">
+	</div>
+
+	<!-- 物理像素:手机实际的尺寸 -->
+	<!-- 逻辑像素:用几个像素点来表示实际的1像素 -->
+	<!-- 视口:980px  手机浏览器的内宽 -->
+
+	<!-- 1.改变视口
+	2.保持设计稿成比例缩放----rem单位
+	rem：相对于根元素（html）的字体大小的单位
+
+	html：100px；				50px
+		  1rem=1*100px=100px；	1rem=1*50=50px；
+		  2rem=2*200px=200px；	2rem=2*50=100px；
+	设计稿：	750px	100px
+	
+	手机尺寸	html字体大小	1rem	实际大小
+	 750px		100px；			1rem	100px；
+	 375px   	375/750*100px	1rem	50px；
+	 412px； 	412/750*100px	1rem	55px
+	 360px； 	360/750*100px	1rem	48px；
+	 768px； 	768/750*100px	1rem	102px；
+
+
+	-->
+</body>
+</html>
