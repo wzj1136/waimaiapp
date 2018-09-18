@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2018-08-11 13:18:29
 * @Last Modified by:   lenovo
-* @Last Modified time: 2018-08-12 14:34:49
+* @Last Modified time: 2018-09-18 17:49:32
 */
 *{
 	padding: 0;
@@ -246,14 +246,14 @@ i{
 	text-align: center;
 }
 .dibu{
-	/* margin-top: 0.1rem; */
 	width: 100%;
-	padding: 0 0.24rem;
-	/* overflow: hidden; */
+	padding: 0.2rem 0rem 0rem;
 	position: fixed;
 	bottom: 0;
-	right: 0.24rem;
+	left: 0;
 	background: #fff;
+	/* box-sizing: border-box; */
+	box-shadow: 0.08rem 0rem 0.3rem 0.005rem rgba(255, 196, 4, 0.6);
 }
 .dibu .continer0{
 	height: 100%;
@@ -262,33 +262,25 @@ i{
 .dibu ul{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	/* position: relative; */
+	justify-content: space-between
 }
 .dibu ul li{
-	width: 0.95rem;
+	width:25%;
 	height: 0.95rem;
-	/* background: blue; */
-	/* line-height: 0.95rem; */
-	/* text-align: center; */
 	font-size: 0.18rem;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
 }
-.dibu ul li .iconfont{
-	position: absolute;
-	font-size: 0.54rem;
-	color: #828282;
-	left: 0.22rem;
-}
 .dibu ul li p{
-	margin-top:0.6rem;
+	/* margin-top:0.6rem; */
 	color: #737272;
 }
+.dibu ul li .iconfont{
+	display: block;
+	font-size: 0.5rem;
+	color: #828282;
+}
 .dibu ul li .icon-wode{
-	position: absolute;
-	font-size: 0.54rem;
 	color: #FEDC32;
-	left: 0.22rem;
 }
