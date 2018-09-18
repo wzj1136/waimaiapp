@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2018-09-13 11:59:00
 * @Last Modified by:   lenovo
-* @Last Modified time: 2018-09-13 14:10:36
+* @Last Modified time: 2018-09-18 21:22:37
 */
 window.onload=function(){
 	let add=document.querySelectorAll(".tianjia")[0];
@@ -31,15 +31,18 @@ window.onload=function(){
 		money.innerHTML=8*number;
 		carbig.style.background="#FFDD23";
 		car.style.color="#000";
-		rbottom.style.background="#FFDD23";
-		rbottom.style.color="#000";
-
-		rbottom.onclick=function(){
-		nums.innerHTML=number;
-		newmoney.innerHTML=money.innerHTML;
-		cover.style.display="block";
 		
+		
+		if (money.innerHTML>=20) {
+			rbottom.style.background="#FFDD23";
+			rbottom.style.color="#000";
+			rbottom.onclick=function(){
+				nums.innerHTML=number;
+				newmoney.innerHTML=money.innerHTML;
+				cover.style.display="block";
+			}
 		}
+		
 
 	}
 	
@@ -57,6 +60,10 @@ window.onload=function(){
 		rbottom.style.background="#5D5151";
 		rbottom.style.color="#fff";
 		}	
+		if (money.innerHTML<20) {
+			rbottom.style.background="#5D5151";
+			rbottom.style.color="#fff";
+		}
 	}
 	covadd.onclick=function(){
 		number++;
